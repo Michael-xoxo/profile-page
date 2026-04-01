@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  font-family: "Boldonse", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to the body  */
+  /* overflow-x: hidden; */
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  width: 30%;
+  border-radius: 10%;
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  color: #444;
+}
+
+.description {
+  margin: 48px 0;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.description p {
+  margin-bottom: 16px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.media-links--main:link,
+.media-links--main:visited {
+  color: #555;
+}
+
+.media-links--main:hover,
+.media-links--main:focus {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 2.1rem;
+  vertical-align: middle;
+}
