@@ -13,34 +13,46 @@ body {
   font-family: "Boldonse", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #333;
+  background-color: #6d7275;
 
   /* Only works if there is nothing absolutely positioned in relation to the body  */
   /* overflow-x: hidden; */
 }
 
 .container {
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
+  background-color: rgb(236, 235, 243);
+
+  background:
+    linear-gradient(rgba(236, 235, 243, 0.2), rgba(236, 235, 243, 0.2)),
+    url("images/Jinchuriki.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 img {
   width: 30%;
   border-radius: 10%;
   margin-bottom: 1.6rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.175);
 }
 
 h1 {
-  color: #444;
+  color: #222;
+  text-transform: uppercase;
 }
 
 .description {
   margin: 48px 0;
   font-size: 1.6rem;
-  font-weight: 200;
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 .description p {
@@ -66,11 +78,11 @@ a:active {
 
 .media-links--main:link,
 .media-links--main:visited {
-  color: #555;
+  color: #444;
 }
 
 .media-links--main:hover,
-.media-links--main:focus {
+.media-links--main:active {
   color: rgb(255, 0, 0);
   text-decoration: underline;
 }
